@@ -1,0 +1,74 @@
+************ GIT
+HenintsoaRavaka
+RavakaRavaka1
+
+sudo su
+heroku login
+henintsoaravaka@gmail.com
+RavakaRavaka1
+
+
+heroku create m1p5mean-test
+https://m1p5mean-test.herokuapp.com/ | https://git.heroku.com/m1p5mean-test.git
+
+
+cd *** dossier m1p5mean-test
+git clone https://git.heroku.com/m1p5mean-test.git
+
+
+
+**** install angular2
+sudo su
+npm install -g @angular/cli
+
+
+cd **** dossier
+ng new my-test
+
+cd my-test
+ng build
+
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/HenintsoaRavaka/M1_mean_test.git
+git push -u origin master
+
+
+************** modif
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/HenintsoaRavaka/M1_mean_test.git
+
+git remote add origin https://git.heroku.com/exemple-mean.git
+git push -u origin master
+
+npm install @angular/cli@latest @angular/compiler-cli --save-dev
+
+
+
+
+******************** heroku
+https://dashboard.heroku.com/apps/m1p5mean-test/deploy/heroku-git
+
+
+
+
+
+
+
+************************** CODE ***************************
+
+MODIF : /Users/pro/Documents/ITU/ITU M1/Mr Rojo/Projet/local-my-test/src/app/app.module.ts
+
+CREATION : /Users/pro/Documents/ITU/ITU M1/Mr Rojo/Projet/local-my-test/src/app/components/login
+			- login.component.html
+			- login.component.ts
+
+
+
+
+**************
+npm install ng2-youtube-player --save-dev
+
+creer service
+ng g s video
